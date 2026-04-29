@@ -1,0 +1,17 @@
+# Ignore dev junk
+node_modules/
+dist/
+backend/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+frontend/node_modules/
+backend/data/
+*.pkl
+*.log
+
+# Ignore all markdown docs except README.md
+*.md
+!/README.md
+
